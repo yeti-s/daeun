@@ -1,7 +1,6 @@
 import re
-from voice.vits.text.korean import latin_to_hangul, number_to_hangul, divide_hangul, g2pk
-
-from voice.vits.text.symbols import symbols
+from .korean import latin_to_hangul, number_to_hangul, divide_hangul, g2pk
+from .symbols import symbols
 _cleaner_cleans = re.compile('['+'^'.join(symbols)+']')
 
 

@@ -1,6 +1,6 @@
 """ from https://github.com/keithito/tacotron """
 from voice.vits.text import cleaners
-from voice.vits.text.symbols import symbols
+from .symbols import symbols
 
 
 # Mappings from symbol to numeric ID and vice versa:
