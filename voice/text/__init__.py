@@ -1,5 +1,5 @@
 """ from https://github.com/keithito/tacotron """
-from voice.vits.text import cleaners
+from voice.text import cleaners
 from .symbols import symbols
 
 
